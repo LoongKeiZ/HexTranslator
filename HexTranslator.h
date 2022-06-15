@@ -10,13 +10,14 @@
  * 
  */
 UCLASS()
-class SPRINGPLOUGH_API UHexTranslator : public UBlueprintFunctionLibrary
+class PROJECT_API UHexTranslator : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	
 public:
 
-	/*十六进制转十进制*/
+	/*鍗佸叚杩涘埗杞崄杩涘埗*/
 	UFUNCTION(BlueprintCallable)
 	static void HexToDecimal(const FString& Zero, const FString& Ten,int32& Decimal);
+	
 };
