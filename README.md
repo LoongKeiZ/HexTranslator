@@ -1,5 +1,5 @@
 # HexTranslator
-Hex translate to Decimal in ue4.
+Hex translate to Decimal in ue4 (4.27).
 
 Inherited from Blueprint Function Library.
 
